@@ -17,4 +17,4 @@ public class Prac3 {
 		System.out.println(strVar2.equals(strVar3));
 	}//END main
 
-}//END Prac3
+}//END PracK

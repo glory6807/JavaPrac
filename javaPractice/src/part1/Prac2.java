@@ -36,4 +36,4 @@ public class Prac2 {
 		
 	}//END main
 
-}//END Prac2	//~p.63
+}//END PracC	//~p.63

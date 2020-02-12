@@ -25,4 +25,4 @@ public class Prac1 {
 			//int v3 = v1 + v2 + 5;	//v2 변수를 사용할 수 없으므로 컴파일 에러가 생김
 	}//END main
 
-}//END Prac1	//~p.37
+}//END PracS	//~p.37

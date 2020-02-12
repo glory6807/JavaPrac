@@ -25,4 +25,4 @@ public class Prac3 {
 		return sum;
 	}//END add
 	
-}//END Prac3
+}//END PracK
