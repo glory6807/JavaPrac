@@ -21,5 +21,13 @@ public class Calculator {
 	void println(String message) {
 		System.out.println(message);
 	}
+	
+	double rectangle(double width) {
+		return width * width;
+	}
+	
+	double rectangle(double height, double width) {
+		return height * width;
+	}
 
 }

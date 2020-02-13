@@ -12,9 +12,7 @@ public class PracC {
 		System.out.println("자동차 현재 속도 : " + car.speed);
 		
 		car.speed = 60;
-		System.out.println("자동차 현재 속도 : " + car.speed);
-		
-		//객체란 : 물리적으로 존재하거나 추상적으로 생각할 수 있는 것 중에서 자신의 속성을 가지고 있고 다른 것과 식별 가능한 것
+		System.out.println("자동차 현재 속도 : " + car.speed);		
 	}
 
 }
