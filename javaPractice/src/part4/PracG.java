@@ -1,4 +1,4 @@
-package par4;
+package part4;
 
 public class PracG {
 

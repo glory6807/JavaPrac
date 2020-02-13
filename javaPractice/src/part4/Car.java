@@ -1,4 +1,4 @@
-package par4;
+package part4;
 
 public class Car {
 
@@ -15,7 +15,7 @@ public class Car {
 	void run() {
 		for(int i = 10; i<=50; i+=10) {
 			speed = i;
-			System.out.println("달립니다! 시속 : " + i + "/kh");
+			System.out.println("달립니다! 시속 : " + i + "km/h");
 		}
 	}
 }
