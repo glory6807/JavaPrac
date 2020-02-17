@@ -10,6 +10,6 @@ public class Car {
 	int speed;
 	
 	Car(String model, int cc) {
-		
+		System.out.println(cc); 	//null
 	}
 }
