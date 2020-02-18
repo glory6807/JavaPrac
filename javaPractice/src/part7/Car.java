@@ -10,13 +10,13 @@ public class Car {
 	//생성자
 	
 	//메소드
-	int run() {
+	int run() {	//모든 타이어를 1회 회전시키기
 		System.out.println("[자동차가 달립니다]");
-		if(frontLeftTire.roll() == false) {
-			stop();
-			return 1;
+		if(frontLeftTire.roll() == false) {	//false를 리턴하는 타이어는
+			stop();		//멈춤 메소드를 호출하고
+			return 1;	//해당 타이어번호를 리턴
 		}
-		if(front RightTire.roll() == false) {
+		if(frontRightTire.roll() == false) {
 			stop();
 			return 2;
 		}
@@ -27,8 +27,7 @@ public class Car {
 		if(backRightTire.roll() == false) {
 			stop();
 			return 4;
-		}
-		
+		}	
 			return 0;
 	}
 	
