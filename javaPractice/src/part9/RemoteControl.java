@@ -11,7 +11,7 @@ public interface RemoteControl {
 	public void setVolume(int volume);
 	
 	//디폴트 메소드
-	default void setMute(boolean mute) {
+	default void setMute(boolean mute) {	//인터페이스에서 바로 사용할 수 없고, 추상 메소드가 아닌 인스턴스 메소드이므로 구현 객체가 있어야 사용 가능
 		if(mute) {
 			System.out.println("무음 처리합니다.");
 		} else {

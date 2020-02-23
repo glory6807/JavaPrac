@@ -1,17 +1,17 @@
 package part9;
 
-public class Television implements RemoteControl{
+public class Television implements RemoteControl{	//구현 클래스
 	
 	private int volume;
 	
 	@Override	//인터페이스의 추상 메소드에 대한 정확한 실체 메소드인지 컴파일러가 체크하도록 지시하는 어노테이션
 	public void turnOn() {
-		System.out.println("티비를 켭니다.");		
+		System.out.println("TV를 켭니다.");		
 	}
 
 	@Override
 	public void turnOff() {
-		System.out.println("티비를 끕니다.");
+		System.out.println("TV를 끕니다.");
 		
 	}
 
