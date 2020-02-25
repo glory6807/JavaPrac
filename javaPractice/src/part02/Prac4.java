@@ -1,4 +1,4 @@
-package part2;
+package part02;
 
 public class Prac4 {
 
