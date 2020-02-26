@@ -19,6 +19,11 @@ public class Main {
 		
 		//로컬 클래스 객체 생성을 위한 메소드 호출
 		a.method();
+		
+		Window w = new Window();
+		w.button1.onClick();
+		w.button2.onClick();
+		
 	}
 
 }
